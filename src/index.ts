@@ -1,7 +1,7 @@
-function multiply(a: number, b: number): number {
-  return a * b;
-}
-const a = 4;
+import multiply, { multiplyByTwo as mby2, helloWorld } from "./multiply";
+
+const a = 20;
 const b = 2;
 
 console.log(`${a} * ${b} = ${multiply(a, b)}`);
+mby2(10);
