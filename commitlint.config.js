@@ -1,6 +1,18 @@
-// commitlint.config.js
 module.exports = {
+  extends: ["@commitlint/config-conventional"],
   rules: {
-    "header-max-length": [0, "always", 2],
+    value: [
+      "build",
+      "ci",
+      "chore",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "revert",
+      "style",
+      "test",
+    ],
   },
 };
